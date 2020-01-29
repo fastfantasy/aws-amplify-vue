@@ -239,6 +239,7 @@ export default {
     setError: function(e) {
       this.error = this.$Amplify.I18n.get(e.message || e);
       this.logger.error(this.error)
+      AmplifyEventBus.$emit('signupErrorState', this.error)
     },
 
     // determines whether or not key needs to be prepended with 'custom:' for Cognito User Pool custom attributes.

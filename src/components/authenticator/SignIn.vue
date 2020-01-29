@@ -82,7 +82,6 @@ export default {
     },
   },
   mounted() {
-    console.log('this is the edited version')
     this.logger = new this.$Amplify.Logger(this.$options.name);
   },
   methods: {
@@ -127,6 +126,7 @@ export default {
     setError: function(e) {
       this.error = this.$Amplify.I18n.get(e.message || e);
       this.logger.error(this.error)
+      AmplifyEventBus.$emit('signinErrorState', this.error)
     },
     usernameFieldChanged: function(data) {
       const { usernameField, username, email, phoneNumber } = data;
