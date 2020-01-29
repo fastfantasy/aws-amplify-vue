@@ -82,6 +82,7 @@ export default {
     },
   },
   mounted() {
+    console.log('this is the edited version')
     this.logger = new this.$Amplify.Logger(this.$options.name);
   },
   methods: {
