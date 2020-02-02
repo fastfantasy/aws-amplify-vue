@@ -22,7 +22,6 @@
       <div v-bind:class="amplifyUI.formField">
         <div v-bind:class="amplifyUI.inputLabel">{{$Amplify.I18n.get('Confirmation Code')}} *</div>
         <input v-bind:class="amplifyUI.input" v-model="code" name="code" :placeholder="$Amplify.I18n.get('Confirmation Code')" v-bind:data-test="auth.confirmSignUp.confirmationCodeInput" />
-        <p>If you have not received the confirmation message within a few minutes of signing up, please check your spam folder.</p>
         <div v-bind:class="amplifyUI.hint">
           {{$Amplify.I18n.get('Lost your code? ')}}
           <a v-bind:class="amplifyUI.a" v-on:click="resend" v-bind:data-test="auth.confirmSignUp.resendCodeLink">{{$Amplify.I18n.get('Resend Code')}}</a>
