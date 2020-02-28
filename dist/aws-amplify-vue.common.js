@@ -13417,12 +13417,12 @@ var SignOut_component = normalizeComponent(
 )
 
 /* harmony default export */ var SignOut = (SignOut_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"119b6a91-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/authenticator/ConfirmSignUp.vue?vue&type=template&id=4a441033&
-var ConfirmSignUpvue_type_template_id_4a441033_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.amplifyUI.formSection,attrs:{"data-test":_vm.auth.confirmSignUp.section}},[_c('div',{class:_vm.amplifyUI.sectionHeader,attrs:{"data-test":_vm.auth.confirmSignUp.headerSection}},[_vm._v(_vm._s(_vm.options.header))]),_c('div',{class:_vm.amplifyUI.sectionBody,attrs:{"data-test":_vm.auth.confirmSignUp.bodySection}},[_c('div',{class:_vm.amplifyUI.formField},[_c('div',{class:_vm.amplifyUI.inputLabel},[_vm._v(_vm._s(_vm.$Amplify.I18n.get(_vm.getUsernameLabel()))+" *")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.options.username),expression:"options.username"}],class:_vm.amplifyUI.input,attrs:{"name":"username","placeholder":_vm.$Amplify.I18n.get(_vm.getUsernameLabel()),"autofocus":"","data-test":_vm.auth.confirmSignUp.usernameInput},domProps:{"value":(_vm.options.username)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.options, "username", $event.target.value)}}})]),_c('div',{class:_vm.amplifyUI.formField},[_c('div',{class:_vm.amplifyUI.inputLabel},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Confirmation Code'))+" *")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.code),expression:"code"}],class:_vm.amplifyUI.input,attrs:{"name":"code","placeholder":_vm.$Amplify.I18n.get('Confirmation Code'),"data-test":_vm.auth.confirmSignUp.confirmationCodeInput},domProps:{"value":(_vm.code)},on:{"input":function($event){if($event.target.composing){ return; }_vm.code=$event.target.value}}}),_c('p',[_vm._v("If you have not received the confirmation message within a few minutes of signing up, please check your spam folder.")]),_c('div',{class:_vm.amplifyUI.hint},[_vm._v("\n        "+_vm._s(_vm.$Amplify.I18n.get('Lost your code? '))+"\n        "),_c('a',{class:_vm.amplifyUI.a,attrs:{"data-test":_vm.auth.confirmSignUp.resendCodeLink},on:{"click":_vm.resend}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Resend Code')))])])])]),_c('div',{class:_vm.amplifyUI.sectionFooter},[_c('span',{class:_vm.amplifyUI.sectionFooterPrimaryContent},[_c('button',{class:_vm.amplifyUI.button,attrs:{"data-test":_vm.auth.confirmSignUp.confirmButton},on:{"click":_vm.confirm}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Confirm')))])]),_c('span',{class:_vm.amplifyUI.sectionFooterSecondaryContent},[_vm._v("\n      "+_vm._s(_vm.$Amplify.I18n.get('Have an account? '))+"\n      "),_c('a',{class:_vm.amplifyUI.a,attrs:{"data-test":_vm.auth.confirmSignUp.backToSignInLink},on:{"click":_vm.signIn}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Back to Sign In')))])])]),(_vm.error)?_c('div',{staticClass:"error"},[_vm._v("\n    "+_vm._s(_vm.error)+"\n  ")]):_vm._e()])}
-var ConfirmSignUpvue_type_template_id_4a441033_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"119b6a91-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/authenticator/ConfirmSignUp.vue?vue&type=template&id=a21208da&
+var ConfirmSignUpvue_type_template_id_a21208da_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.amplifyUI.formSection,attrs:{"data-test":_vm.auth.confirmSignUp.section}},[_c('div',{class:_vm.amplifyUI.sectionHeader,attrs:{"data-test":_vm.auth.confirmSignUp.headerSection}},[_vm._v(_vm._s(_vm.options.header))]),_c('div',{class:_vm.amplifyUI.sectionBody,attrs:{"data-test":_vm.auth.confirmSignUp.bodySection}},[_c('div',{class:_vm.amplifyUI.formField},[_c('div',{class:_vm.amplifyUI.inputLabel},[_vm._v(_vm._s(_vm.$Amplify.I18n.get(_vm.getUsernameLabel()))+" *")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.options.username),expression:"options.username"}],class:_vm.amplifyUI.input,attrs:{"name":"username","placeholder":_vm.$Amplify.I18n.get(_vm.getUsernameLabel()),"autofocus":"","data-test":_vm.auth.confirmSignUp.usernameInput},domProps:{"value":(_vm.options.username)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.options, "username", $event.target.value)}}})]),_c('div',{class:_vm.amplifyUI.formField},[_c('div',{class:_vm.amplifyUI.inputLabel},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Confirmation Code'))+" *")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.options.code),expression:"options.code"}],class:_vm.amplifyUI.input,attrs:{"name":"code","placeholder":_vm.$Amplify.I18n.get('Confirmation Code'),"data-test":_vm.auth.confirmSignUp.confirmationCodeInput},domProps:{"value":(_vm.options.code)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.options, "code", $event.target.value)}}}),_c('p',[_vm._v("If you have not received the confirmation message within a few minutes of signing up, please check your spam folder.")]),_c('div',{class:_vm.amplifyUI.hint},[_vm._v("\n        "+_vm._s(_vm.$Amplify.I18n.get('Lost your code? '))+"\n        "),_c('a',{class:_vm.amplifyUI.a,attrs:{"data-test":_vm.auth.confirmSignUp.resendCodeLink},on:{"click":_vm.resend}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Resend Code')))])])])]),_c('div',{class:_vm.amplifyUI.sectionFooter},[_c('span',{class:_vm.amplifyUI.sectionFooterPrimaryContent},[_c('button',{class:_vm.amplifyUI.button,attrs:{"data-test":_vm.auth.confirmSignUp.confirmButton},on:{"click":_vm.confirm}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Confirm')))])]),_c('span',{class:_vm.amplifyUI.sectionFooterSecondaryContent},[_vm._v("\n      "+_vm._s(_vm.$Amplify.I18n.get('Have an account? '))+"\n      "),_c('a',{class:_vm.amplifyUI.a,attrs:{"data-test":_vm.auth.confirmSignUp.backToSignInLink},on:{"click":_vm.signIn}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Back to Sign In')))])])]),(_vm.error)?_c('div',{staticClass:"error"},[_vm._v("\n    "+_vm._s(_vm.error)+"\n  ")]):_vm._e()])}
+var ConfirmSignUpvue_type_template_id_a21208da_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/authenticator/ConfirmSignUp.vue?vue&type=template&id=4a441033&
+// CONCATENATED MODULE: ./src/components/authenticator/ConfirmSignUp.vue?vue&type=template&id=a21208da&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/authenticator/ConfirmSignUp.vue?vue&type=script&lang=js&
 
@@ -13482,7 +13482,6 @@ var ConfirmSignUpvue_type_template_id_4a441033_staticRenderFns = []
   props: ['confirmSignUpConfig', 'usernameAttributes'],
   data: function data() {
     return {
-      code: '',
       error: '',
       logger: {},
       amplifyUI: aws_amplify_ui,
@@ -13492,6 +13491,7 @@ var ConfirmSignUpvue_type_template_id_4a441033_staticRenderFns = []
   computed: {
     options: function options() {
       var defaults = {
+        code: '',
         username: '',
         header: this.$Amplify.I18n.get('Confirm Sign Up')
       };
@@ -13511,7 +13511,7 @@ var ConfirmSignUpvue_type_template_id_4a441033_staticRenderFns = []
     confirm: function confirm() {
       var _this = this;
 
-      this.$Amplify.Auth.confirmSignUp(this.options.username, this.code).then(function () {
+      this.$Amplify.Auth.confirmSignUp(this.options.username, this.options.code).then(function () {
         _this.logger.info('confirmSignUp success');
 
         AmplifyEventBus["a" /* default */].$emit('authState', 'signIn');
@@ -13552,8 +13552,8 @@ var ConfirmSignUpvue_type_template_id_4a441033_staticRenderFns = []
 
 var ConfirmSignUp_component = normalizeComponent(
   authenticator_ConfirmSignUpvue_type_script_lang_js_,
-  ConfirmSignUpvue_type_template_id_4a441033_render,
-  ConfirmSignUpvue_type_template_id_4a441033_staticRenderFns,
+  ConfirmSignUpvue_type_template_id_a21208da_render,
+  ConfirmSignUpvue_type_template_id_a21208da_staticRenderFns,
   false,
   null,
   null,

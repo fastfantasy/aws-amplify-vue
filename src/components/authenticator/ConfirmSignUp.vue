@@ -21,7 +21,7 @@
       </div>
       <div v-bind:class="amplifyUI.formField">
         <div v-bind:class="amplifyUI.inputLabel">{{$Amplify.I18n.get('Confirmation Code')}} *</div>
-        <input v-bind:class="amplifyUI.input" v-model="code" name="code" :placeholder="$Amplify.I18n.get('Confirmation Code')" v-bind:data-test="auth.confirmSignUp.confirmationCodeInput" />
+        <input v-bind:class="amplifyUI.input" v-model="options.code" name="code" :placeholder="$Amplify.I18n.get('Confirmation Code')" v-bind:data-test="auth.confirmSignUp.confirmationCodeInput" />
         <p>If you have not received the confirmation message within a few minutes of signing up, please check your spam folder.</p>
         <div v-bind:class="amplifyUI.hint">
           {{$Amplify.I18n.get('Lost your code? ')}}
@@ -55,7 +55,6 @@ export default {
   props: ['confirmSignUpConfig', 'usernameAttributes'],
   data () {
     return {
-        code: '',
         error: '',
         logger: {},
         amplifyUI: AmplifyUI,
@@ -65,6 +64,7 @@ export default {
   computed: {
     options() {
       const defaults = {
+        code: '',
         username: '',
         header: this.$Amplify.I18n.get('Confirm Sign Up'),
       }
@@ -79,7 +79,7 @@ export default {
   },
   methods: {
     confirm() {
-        this.$Amplify.Auth.confirmSignUp(this.options.username, this.code)
+        this.$Amplify.Auth.confirmSignUp(this.options.username, this.options.code)
           .then(() => {
             this.logger.info('confirmSignUp success')
             AmplifyEventBus.$emit('authState', 'signIn')
