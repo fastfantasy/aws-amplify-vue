@@ -176,14 +176,14 @@ export default {
       // puts field data into 'Auth.signUp' parameter structure
       this.options.signUpFields.forEach((e) => {
         if (e.key === 'username') {
-          user.username = e.value
+          user.username = e.value.trim()
         } else if (e.key === 'password') {
-          user.password = e.value
+          user.password = e.value.trim()
         } else if (e.key === 'phone_number' && e.value) {
           user.attributes.phone_number = e.value;
         } else {
           const newKey = `${this.needPrefix(e.key) ? 'custom:' : ''}${e.key}`;
-          user.attributes[newKey] = e.value;
+          user.attributes[newKey] = e.value.trim();
         };
       });
 
