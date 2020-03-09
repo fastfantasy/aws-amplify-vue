@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     signIn: function(event) {
-      this.$Amplify.Auth.signIn(this.signInUsername, this.password)
+      this.$Amplify.Auth.signIn(this.signInUsername.trim(), this.password)
         .then(data => {
           this.logger.info('sign in success');
           if (data.challengeName === 'SMS_MFA' || data.challengeName === 'SOFTWARE_TOKEN_MFA') {
