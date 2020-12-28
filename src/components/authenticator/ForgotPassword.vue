@@ -82,7 +82,7 @@ export default {
   },
   methods: {
     submit: function() {
-      this.$Amplify.Auth.forgotPassword(this.forgotPwUsername)
+      this.$Amplify.Auth.forgotPassword(this.forgotPwUsername.trim())
         .then(() => {
           this.sent = true;
           this.logger.info('forgotPassword success');
@@ -90,7 +90,7 @@ export default {
         .catch(e => this.setError(e));
     },
     verify: function() {
-      this.$Amplify.Auth.forgotPasswordSubmit(this.forgotPwUsername, this.code, this.password)
+      this.$Amplify.Auth.forgotPasswordSubmit(this.forgotPwUsername.trim(), this.code, this.password)
         .then(() => {
           this.logger.info('forgotPasswordSubmit success');
           AmplifyEventBus.$emit('authState', 'signIn');
