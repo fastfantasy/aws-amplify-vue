@@ -11386,12 +11386,12 @@ var component = normalizeComponent(
 
 external_commonjs_vue_commonjs2_vue_root_Vue_default.a.component('amplify-connect', Connect);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"119b6a91-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/authenticator/SignIn.vue?vue&type=template&id=334a70e2&
-var SignInvue_type_template_id_334a70e2_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.amplifyUI.formSection,attrs:{"data-test":_vm.auth.signIn.section}},[_c('div',{class:_vm.amplifyUI.sectionHeader,attrs:{"data-test":_vm.auth.signIn.headerSection}},[_vm._v(_vm._s(_vm.options.header))]),_c('div',{class:_vm.amplifyUI.sectionBody,attrs:{"data-test":_vm.auth.signIn.bodySection}},[_c('amplify-username-field',{attrs:{"usernameAttributes":_vm.usernameAttributes},on:{"username-field-changed":_vm.usernameFieldChanged}}),_c('div',{class:_vm.amplifyUI.formField},[_c('div',{class:_vm.amplifyUI.inputLabel},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Password'))+" *")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.password),expression:"password"}],class:_vm.amplifyUI.input,attrs:{"type":"password","placeholder":_vm.$Amplify.I18n.get('Enter your password'),"data-test":_vm.auth.signIn.passwordInput},domProps:{"value":(_vm.password)},on:{"keyup":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"enter",13,$event.key,"Enter")){ return null; }return _vm.signIn($event)},"input":function($event){if($event.target.composing){ return; }_vm.password=$event.target.value}}}),_c('div',{class:_vm.amplifyUI.hint},[_vm._v("\n        "+_vm._s(_vm.$Amplify.I18n.get('Forget your password? '))+"\n        "),_c('a',{class:_vm.amplifyUI.a,attrs:{"data-test":_vm.auth.signIn.forgotPasswordLink},on:{"click":_vm.forgot}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Reset password')))])])])],1),_c('div',{class:_vm.amplifyUI.sectionFooter,attrs:{"data-test":_vm.auth.signIn.footerSection}},[_c('span',{class:_vm.amplifyUI.sectionFooterPrimaryContent},[_c('button',{class:_vm.amplifyUI.button,attrs:{"data-test":_vm.auth.signIn.signInButton},on:{"click":_vm.signIn}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Sign In')))])]),(_vm.options.isSignUpDisplayed)?_c('span',{class:_vm.amplifyUI.sectionFooterSecondaryContent},[_vm._v("\n      "+_vm._s(_vm.$Amplify.I18n.get('No account? '))+"\n      "),_c('a',{class:_vm.amplifyUI.a,attrs:{"data-test":_vm.auth.signIn.createAccountLink},on:{"click":_vm.signUp}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Create account')))])]):_vm._e()]),(_vm.error)?_c('div',{staticClass:"error",attrs:{"data-test":_vm.auth.signIn.signInError}},[_vm._v("\n    "+_vm._s(_vm.error)+"\n  ")]):_vm._e()])}
-var SignInvue_type_template_id_334a70e2_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"119b6a91-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/authenticator/SignIn.vue?vue&type=template&id=6a6b524c&
+var SignInvue_type_template_id_6a6b524c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.amplifyUI.formSection,attrs:{"data-test":_vm.auth.signIn.section}},[_c('div',{class:_vm.amplifyUI.sectionHeader,attrs:{"data-test":_vm.auth.signIn.headerSection}},[_vm._v(_vm._s(_vm.options.header))]),_c('div',{class:_vm.amplifyUI.sectionBody,attrs:{"data-test":_vm.auth.signIn.bodySection}},[_c('amplify-username-field',{attrs:{"usernameAttributes":_vm.usernameAttributes},on:{"username-field-changed":_vm.usernameFieldChanged}}),_c('div',{class:_vm.amplifyUI.formField},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.password),expression:"password"}],class:_vm.amplifyUI.input,attrs:{"type":"password","placeholder":_vm.$Amplify.I18n.get('Enter your password'),"data-test":_vm.auth.signIn.passwordInput},domProps:{"value":(_vm.password)},on:{"keyup":function($event){if(!$event.type.indexOf('key')&&_vm._k($event.keyCode,"enter",13,$event.key,"Enter")){ return null; }return _vm.signIn($event)},"input":function($event){if($event.target.composing){ return; }_vm.password=$event.target.value}}}),_c('div',{class:_vm.amplifyUI.hint},[_c('a',{class:_vm.amplifyUI.a,attrs:{"data-test":_vm.auth.signIn.forgotPasswordLink},on:{"click":_vm.forgot}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Forgot Password?')))])])])],1),_c('div',{class:_vm.amplifyUI.sectionFooter,attrs:{"data-test":_vm.auth.signIn.footerSection}},[_c('span',{class:_vm.amplifyUI.sectionFooterPrimaryContent},[_c('button',{class:_vm.amplifyUI.button,attrs:{"data-test":_vm.auth.signIn.signInButton},on:{"click":_vm.signIn}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Sign In')))])]),(_vm.options.isSignUpDisplayed)?_c('span',{class:_vm.amplifyUI.sectionFooterSecondaryContent},[_vm._v("\n      "+_vm._s(_vm.$Amplify.I18n.get('Dont have an account? '))+"\n      "),_c('a',{class:_vm.amplifyUI.a,attrs:{"data-test":_vm.auth.signIn.createAccountLink},on:{"click":_vm.signUp}},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Sign up here')))])]):_vm._e()]),(_vm.error)?_c('div',{staticClass:"error",attrs:{"data-test":_vm.auth.signIn.signInError}},[_vm._v("\n    "+_vm._s(_vm.error)+"\n  ")]):_vm._e()])}
+var SignInvue_type_template_id_6a6b524c_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/authenticator/SignIn.vue?vue&type=template&id=334a70e2&
+// CONCATENATED MODULE: ./src/components/authenticator/SignIn.vue?vue&type=template&id=6a6b524c&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.function.name.js
 var es6_function_name = __webpack_require__("7f7f");
@@ -11405,12 +11405,12 @@ var AmplifyEventBus = __webpack_require__("b600");
 // EXTERNAL MODULE: ./node_modules/@aws-amplify/ui/dist/aws-amplify-ui.js
 var aws_amplify_ui = __webpack_require__("bd89");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"119b6a91-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/authenticator/UsernameField.vue?vue&type=template&id=25340200&
-var UsernameFieldvue_type_template_id_25340200_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.amplifyUI.formField},[(_vm.shouldRenderUsernameField)?_c('div',[_c('div',{class:_vm.amplifyUI.inputLabel},[_vm._v(_vm._s(_vm.$Amplify.I18n.get(_vm.getUsernameLabel()))+" *")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.username),expression:"username"}],class:_vm.amplifyUI.input,attrs:{"placeholder":_vm.$Amplify.I18n.get(("Enter your " + (_vm.getUsernameLabel()))),"autofocus":"","data-test":_vm.auth.genericAttrs.usernameInput},domProps:{"value":(_vm.username)},on:{"keyup":_vm.usernameChanged,"input":function($event){if($event.target.composing){ return; }_vm.username=$event.target.value}}})]):_vm._e(),(_vm.shouldRenderEmailField)?_c('div',[_c('div',{class:_vm.amplifyUI.inputLabel},[_vm._v(_vm._s(_vm.$Amplify.I18n.get('Email'))+" *")]),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.email),expression:"email"}],class:_vm.amplifyUI.input,attrs:{"placeholder":_vm.$Amplify.I18n.get('Enter your email'),"autofocus":"","data-test":_vm.auth.genericAttrs.emailInput},domProps:{"value":(_vm.email)},on:{"keyup":_vm.emailChanged,"input":function($event){if($event.target.composing){ return; }_vm.email=$event.target.value}}})]):_vm._e(),(_vm.shouldRenderPhoneNumberField)?_c('div',[_c('amplify-phone-field',{attrs:{"required":_vm.phoneNumberRequired},on:{"phone-number-changed":_vm.phoneNumberChanged}})],1):_vm._e()])}
-var UsernameFieldvue_type_template_id_25340200_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"119b6a91-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/authenticator/UsernameField.vue?vue&type=template&id=64ddc8bf&
+var UsernameFieldvue_type_template_id_64ddc8bf_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.amplifyUI.formField},[(_vm.shouldRenderUsernameField)?_c('div',[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.username),expression:"username"}],class:_vm.amplifyUI.input,attrs:{"placeholder":_vm.$Amplify.I18n.get(("Enter your " + (_vm.getUsernameLabel()))),"autofocus":"","data-test":_vm.auth.genericAttrs.usernameInput},domProps:{"value":(_vm.username)},on:{"keyup":_vm.usernameChanged,"input":function($event){if($event.target.composing){ return; }_vm.username=$event.target.value}}})]):_vm._e(),(_vm.shouldRenderEmailField)?_c('div',[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.email),expression:"email"}],class:_vm.amplifyUI.input,attrs:{"placeholder":_vm.$Amplify.I18n.get('Enter your email'),"autofocus":"","data-test":_vm.auth.genericAttrs.emailInput},domProps:{"value":(_vm.email)},on:{"keyup":_vm.emailChanged,"input":function($event){if($event.target.composing){ return; }_vm.email=$event.target.value}}})]):_vm._e(),(_vm.shouldRenderPhoneNumberField)?_c('div',[_c('amplify-phone-field',{attrs:{"required":_vm.phoneNumberRequired},on:{"phone-number-changed":_vm.phoneNumberChanged}})],1):_vm._e()])}
+var UsernameFieldvue_type_template_id_64ddc8bf_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/authenticator/UsernameField.vue?vue&type=template&id=25340200&
+// CONCATENATED MODULE: ./src/components/authenticator/UsernameField.vue?vue&type=template&id=64ddc8bf&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.regexp.search.js
 var es6_regexp_search = __webpack_require__("386d");
@@ -12603,8 +12603,6 @@ var PhoneField_component = normalizeComponent(
 //
 //
 //
-//
-//
 
 
 
@@ -12684,8 +12682,8 @@ external_commonjs_vue_commonjs2_vue_root_Vue_default.a.component('amplify-phone-
 
 var UsernameField_component = normalizeComponent(
   authenticator_UsernameFieldvue_type_script_lang_js_,
-  UsernameFieldvue_type_template_id_25340200_render,
-  UsernameFieldvue_type_template_id_25340200_staticRenderFns,
+  UsernameFieldvue_type_template_id_64ddc8bf_render,
+  UsernameFieldvue_type_template_id_64ddc8bf_staticRenderFns,
   false,
   null,
   null,
@@ -12697,8 +12695,6 @@ var UsernameField_component = normalizeComponent(
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/authenticator/SignIn.vue?vue&type=script&lang=js&
 
 
-//
-//
 //
 //
 //
@@ -12770,7 +12766,7 @@ external_commonjs_vue_commonjs2_vue_root_Vue_default.a.component('amplify-userna
   computed: {
     options: function options() {
       var defaults = {
-        header: this.$Amplify.I18n.get('Sign in to your account'),
+        header: this.$Amplify.I18n.get('Welcome Back'),
         username: '',
         isSignUpDisplayed: true
       };
@@ -12861,8 +12857,8 @@ external_commonjs_vue_commonjs2_vue_root_Vue_default.a.component('amplify-userna
 
 var SignIn_component = normalizeComponent(
   authenticator_SignInvue_type_script_lang_js_,
-  SignInvue_type_template_id_334a70e2_render,
-  SignInvue_type_template_id_334a70e2_staticRenderFns,
+  SignInvue_type_template_id_6a6b524c_render,
+  SignInvue_type_template_id_6a6b524c_staticRenderFns,
   false,
   null,
   null,
