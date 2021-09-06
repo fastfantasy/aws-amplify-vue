@@ -20,11 +20,9 @@
         v-on:username-field-changed="usernameFieldChanged">
       </amplify-username-field>
       <div v-bind:class="amplifyUI.formField">
-        <div v-bind:class="amplifyUI.inputLabel">{{$Amplify.I18n.get('Password')}} *</div>
         <input  v-bind:class="amplifyUI.input" v-model="password" type="password" :placeholder="$Amplify.I18n.get('Enter your password')" v-on:keyup.enter="signIn" v-bind:data-test="auth.signIn.passwordInput" />
         <div v-bind:class="amplifyUI.hint">
-          {{$Amplify.I18n.get('Forget your password? ')}}
-          <a v-bind:class="amplifyUI.a" v-on:click="forgot" v-bind:data-test="auth.signIn.forgotPasswordLink">{{$Amplify.I18n.get('Reset password')}}</a>
+          <a v-bind:class="amplifyUI.a" v-on:click="forgot" v-bind:data-test="auth.signIn.forgotPasswordLink">{{$Amplify.I18n.get('Forgot Password?')}}</a>
         </div>
       </div>
     </div>
@@ -33,8 +31,8 @@
         <button v-bind:class="amplifyUI.button" v-on:click="signIn" v-bind:data-test="auth.signIn.signInButton">{{$Amplify.I18n.get('Sign In')}}</button>
       </span>
       <span v-bind:class="amplifyUI.sectionFooterSecondaryContent" v-if="options.isSignUpDisplayed">
-        {{$Amplify.I18n.get('No account? ')}}
-        <a v-bind:class="amplifyUI.a" v-on:click="signUp" v-bind:data-test="auth.signIn.createAccountLink">{{$Amplify.I18n.get('Create account')}}</a>
+        {{$Amplify.I18n.get('Dont have an account? ')}}
+        <a v-bind:class="amplifyUI.a" v-on:click="signUp" v-bind:data-test="auth.signIn.createAccountLink">{{$Amplify.I18n.get('Sign up here')}}</a>
       </span>
     </div>
     <div class="error" v-if="error" v-bind:data-test="auth.signIn.signInError">
@@ -74,7 +72,7 @@ export default {
   computed: {
     options() {
       const defaults = {
-        header: this.$Amplify.I18n.get('Sign in to your account'),
+        header: this.$Amplify.I18n.get('Welcome Back'),
         username: '',
         isSignUpDisplayed: true,
       }

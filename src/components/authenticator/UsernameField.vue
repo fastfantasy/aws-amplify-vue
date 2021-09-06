@@ -14,7 +14,6 @@
 <template>
     <div v-bind:class="amplifyUI.formField">
         <div v-if="shouldRenderUsernameField">
-            <div v-bind:class="amplifyUI.inputLabel">{{$Amplify.I18n.get(getUsernameLabel())}} *</div>
             <input 
                 v-bind:class="amplifyUI.input" 
                 v-model="username" 
@@ -25,7 +24,6 @@
             />
         </div>
         <div v-if="shouldRenderEmailField">
-            <div v-bind:class="amplifyUI.inputLabel">{{$Amplify.I18n.get('Email')}} *</div>
             <input 
                 v-bind:class="amplifyUI.input" 
                 v-model="email" 
